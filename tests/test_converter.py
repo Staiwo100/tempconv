@@ -91,4 +91,3 @@ def test_convert_same_unit():
 def test_convert_invalid_unit():
     with pytest.raises(ValueError):
         convert(100, "X", "C")
-

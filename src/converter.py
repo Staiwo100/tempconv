@@ -48,4 +48,3 @@ def convert(value: float, from_unit: str, to_unit: str) -> float:
         return celsius_to_kelvin(celsius)
     else:
         raise ValueError(f"Unknown unit: {to_unit}")
-
