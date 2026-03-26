@@ -1,8 +1,10 @@
 import pytest
 
+
 @pytest.fixture
 def freezing_point():
     return {"C": 0.0, "F": 32.0, "K": 273.15}
+
 
 @pytest.fixture
 def boiling_point():
